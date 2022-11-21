@@ -18,6 +18,12 @@ body {
         background-color:#8acbff;
         color:#272727;
     }
+    a.pwit:link, a.pwit:active, a.pwit:visited {
+        background-color: #fffdb7;
+    }
+    a.pwit:hover {
+        background-color:#FFDBFF;
+    }
   }
 
 /* Style rules for dark mode */
@@ -25,6 +31,12 @@ body {
     body {
       background-color: #272727;
       color: #8acbff;
+    }
+    a.pwit:link, a.pwit:active, a.pwit:visited {
+        background-color: #FFDBFF;
+    }
+    a.pwit:hover {
+        background-color:#fffdb7;
     }
   }
 
@@ -41,11 +53,7 @@ a.pwit:link, a.pwit:active, a.pwit:visited {
     text-align:center;
 }
 
-a.pwit:link, a.pwit:active, a.pwit:visited {
-    background-color: #fffdb7;
-}
 a.pwit:hover {
-    background-color:#FFDBFF;
     box-shadow: .25em .25em #000;
 }
 
